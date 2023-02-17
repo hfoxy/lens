@@ -18,6 +18,8 @@ import { Tooltip } from "../tooltip";
 import type { NormalizeCatalogEntityContextMenu } from "../../catalog/normalize-menu-item.injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import normalizeCatalogEntityContextMenuInjectable from "../../catalog/normalize-menu-item.injectable";
+import type { UserStore } from "../../../common/user-store";
+import userStoreInjectable from "../../../common/user-store/user-store.injectable";
 
 export interface HotbarIconProps extends AvatarProps {
   uid: string;
@@ -32,16 +34,19 @@ export interface HotbarIconProps extends AvatarProps {
 
 interface Dependencies {
   normalizeMenuItem: NormalizeCatalogEntityContextMenu;
+  userStore: UserStore;
 }
 
 const NonInjectedHotbarIcon = observer(({
   menuItems = [],
-  size = 40,
   tooltip,
   normalizeMenuItem,
+  userStore,
   ...props
 }: HotbarIconProps & Dependencies) => {
   const { uid, title, src, material, active, className, source, disabled, onMenuOpen, onClick, children, ...rest } = props;
+  const size = userStore.gutterSize.iconSize;
+
   const id = `hotbarIcon-${uid}`;
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -64,6 +69,8 @@ const NonInjectedHotbarIcon = observer(({
         className={cssNames(styles.avatar, { [styles.active]: active, [styles.hasImage]: !!src })}
         disabled={disabled}
         size={size}
+        widthVariable="cellWidth"
+        heightVariable="cellHeight"
         src={src}
         onClick={(event) => !disabled && onClick?.(event)}
       >
@@ -100,5 +107,6 @@ export const HotbarIcon = withInjectables<Dependencies, HotbarIconProps>(NonInje
   getProps: (di, props) => ({
     ...props,
     normalizeMenuItem: di.inject(normalizeCatalogEntityContextMenuInjectable),
+    userStore: di.inject(userStoreInjectable),
   }),
 });

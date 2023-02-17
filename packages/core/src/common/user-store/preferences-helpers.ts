@@ -4,7 +4,7 @@
  */
 
 import type { editor } from "monaco-editor";
-import { defaultEditorFontFamily, defaultFontSize, defaultTerminalFontFamily } from "../vars";
+import { defaultEditorFontFamily, defaultFontSize, defaultTerminalFontFamily, defaultGutterSize } from "../vars";
 import type { PreferenceDescriptors } from "./preference-descriptors.injectable";
 
 export interface KubeconfigSyncEntry extends KubeconfigSyncValue {
@@ -86,6 +86,20 @@ export type ExtensionRegistry = {
 
 export const defaultExtensionRegistryUrlLocation = "default";
 export const defaultExtensionRegistryUrl = "https://registry.npmjs.org";
+
+export const globalGutterSizeOptions: { [id: string]: GutterSizeConfig } = {
+  "standard": { name: "standard", iconSize: 40 },
+  "xlarge": { name: "xlarge", iconSize: 80 },
+  "large": { name: "large", iconSize: 60 },
+  "small": { name: "small", iconSize: 30 },
+}
+
+export interface GutterSizeConfig {
+  name: string;
+  iconSize: number;
+}
+
+export const defaultGutterSizeConfig: GutterSizeConfig = globalGutterSizeOptions[defaultGutterSize];
 
 type PreferencesModelType<field extends keyof PreferenceDescriptors> = PreferenceDescriptors[field] extends PreferenceDescription<infer T, any> ? T : never;
 type UserStoreModelType<field extends keyof PreferenceDescriptors> = PreferenceDescriptors[field] extends PreferenceDescription<any, infer T> ? T : never;

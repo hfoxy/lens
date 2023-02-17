@@ -16,6 +16,8 @@ export interface AvatarProps {
   title: string;
   colorHash?: string;
   size?: number;
+  widthVariable?: string;
+  heightVariable?: string;
   src?: string;
   background?: string;
   variant?: "circle" | "rounded" | "square";
@@ -66,6 +68,8 @@ export const Avatar = ({
   title,
   variant = "rounded",
   size = 32,
+  widthVariable,
+  heightVariable,
   colorHash,
   children,
   background,
@@ -84,8 +88,8 @@ export const Avatar = ({
       [styles.disabled]: disabled,
     }, className)}
     style={{
-      width: `${size}px`,
-      height: `${size}px`,
+      width: widthVariable ? `var(--${widthVariable})` : `${size}px`,
+      height: heightVariable ? `var(--${heightVariable})` : `${size}px`,
       background: background || (
         src
           ? "transparent"

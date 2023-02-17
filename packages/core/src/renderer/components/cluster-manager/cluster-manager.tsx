@@ -22,6 +22,8 @@ import type { StorageLayer } from "../../utils";
 import type { WatchForGeneralEntityNavigation } from "../../api/helpers/watch-for-general-entity-navigation.injectable";
 import watchForGeneralEntityNavigationInjectable from "../../api/helpers/watch-for-general-entity-navigation.injectable";
 import currentPathInjectable from "../../routes/current-path.injectable";
+import type { UserStore } from "../../../common/user-store";
+import userStoreInjectable from "../../../common/user-store/user-store.injectable";
 
 interface Dependencies {
   catalogPreviousActiveTabStorage: StorageLayer<string | null>;
@@ -29,6 +31,7 @@ interface Dependencies {
   welcomeUrl: string;
   watchForGeneralEntityNavigation: WatchForGeneralEntityNavigation;
   currentPath: IComputedValue<string>;
+  userStore: UserStore;
 }
 
 @observer
@@ -68,7 +71,7 @@ class NonInjectedClusterManager extends React.Component<Dependencies> {
 
   render() {
     return (
-      <div className="ClusterManager">
+      <div className={`ClusterManager ClusterManager-${this.props.userStore.gutterSize.name}`}>
         <TopBar />
         <main>
           <div id="lens-views" />
@@ -89,5 +92,6 @@ export const ClusterManager = withInjectables<Dependencies>(NonInjectedClusterMa
     welcomeUrl: buildURL(di.inject(welcomeRouteInjectable).path),
     watchForGeneralEntityNavigation: di.inject(watchForGeneralEntityNavigationInjectable),
     currentPath: di.inject(currentPathInjectable),
+    userStore: di.inject(userStoreInjectable),
   }),
 });

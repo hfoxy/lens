@@ -9,6 +9,7 @@ import type { ThemeId } from "../renderer/themes/lens-theme";
 export const publicPath = "/build/" as string;
 export const defaultThemeId: ThemeId = "lens-dark";
 export const defaultFontSize = 12;
+export const defaultGutterSize = "default";
 export const defaultTerminalFontFamily = "RobotoMono";
 export const defaultEditorFontFamily = "RobotoMono";
 

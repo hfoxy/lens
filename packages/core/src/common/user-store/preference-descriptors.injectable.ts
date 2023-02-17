@@ -10,8 +10,23 @@ import homeDirectoryPathInjectable from "../os/home-directory-path.injectable";
 import joinPathsInjectable from "../path/join-paths.injectable";
 import { defaultThemeId } from "../vars";
 import currentTimezoneInjectable from "./current-timezone.injectable";
-import type { EditorConfiguration, ExtensionRegistry, KubeconfigSyncEntry, KubeconfigSyncValue, TerminalConfig } from "./preferences-helpers";
-import { defaultExtensionRegistryUrlLocation, defaultEditorConfig, defaultTerminalConfig, defaultPackageMirror, getPreferenceDescriptor, packageMirrors } from "./preferences-helpers";
+import type {
+  EditorConfiguration,
+  ExtensionRegistry,
+  GutterSizeConfig,
+  KubeconfigSyncEntry,
+  KubeconfigSyncValue,
+  TerminalConfig
+} from "./preferences-helpers";
+import {
+  defaultExtensionRegistryUrlLocation,
+  defaultEditorConfig,
+  defaultTerminalConfig,
+  defaultPackageMirror,
+  getPreferenceDescriptor,
+  packageMirrors,
+  defaultGutterSizeConfig
+} from "./preferences-helpers";
 
 export type PreferenceDescriptors = ReturnType<typeof userStorePreferenceDescriptorsInjectable["instantiate"]>;
 
@@ -135,6 +150,10 @@ const userStorePreferenceDescriptorsInjectable = getInjectable({
         toStore: val => val.location === defaultExtensionRegistryUrlLocation
           ? undefined
           : val,
+      }),
+      gutterSize: getPreferenceDescriptor<Partial<GutterSizeConfig>, GutterSizeConfig>({
+        fromStore: val => merge(defaultGutterSizeConfig, val),
+        toStore: val => val,
       }),
     }) as const;
   },

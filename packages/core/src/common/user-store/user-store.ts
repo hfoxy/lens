@@ -57,6 +57,7 @@ export class UserStore extends BaseStore<UserStoreModel> /* implements UserStore
   @observable terminalCopyOnSelect!: StoreType<PreferenceDescriptors["terminalCopyOnSelect"]>;
   @observable terminalConfig!: StoreType<PreferenceDescriptors["terminalConfig"]>;
   @observable extensionRegistryUrl!: StoreType<PreferenceDescriptors["extensionRegistryUrl"]>;
+  @observable gutterSize!: StoreType<PreferenceDescriptors["gutterSize"]>;
 
   /**
    * Download kubectl binaries matching cluster version

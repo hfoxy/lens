@@ -3,9 +3,32 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-.ClusterManager {
-  --hotbar-width: 75px;
+.ClusterManager-small {
+  --hotbar-width: 65px !important;
+  --cellWidth: 30px !important;
+  --cellHeight: 30px !important;
+}
 
+.ClusterManager-standard {
+  --hotbar-width: 75px !important;
+  --cellWidth: 40px !important;
+  --cellHeight: 40px !important;
+}
+
+.ClusterManager-large {
+  --hotbar-width: 95px !important;
+  --cellWidth: 60px !important;
+  --cellHeight: 60px !important;
+}
+
+.ClusterManager-xlarge {
+  --hotbar-width: 115px !important;
+  --cellWidth: 80px !important;
+  --cellHeight: 80px !important;
+}
+
+.ClusterManager {
+  --hotbar-width: 95px;
   display: grid;
   grid-template-areas:
     "topbar topbar"
