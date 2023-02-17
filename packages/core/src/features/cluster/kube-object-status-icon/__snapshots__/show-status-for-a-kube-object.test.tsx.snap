@@ -60,7 +60,7 @@ exports[`show status for a kube object given application starts and in test page
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -482,7 +482,7 @@ exports[`show status for a kube object given application starts and in test page
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -944,7 +944,7 @@ exports[`show status for a kube object given application starts and in test page
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1406,7 +1406,7 @@ exports[`show status for a kube object given application starts and in test page
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1828,7 +1828,7 @@ exports[`show status for a kube object given application starts and in test page
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2250,7 +2250,7 @@ exports[`show status for a kube object given application starts and in test page
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

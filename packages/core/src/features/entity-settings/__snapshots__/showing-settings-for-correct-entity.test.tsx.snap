@@ -175,7 +175,7 @@ exports[`Showing correct entity settings renders 1`] = `
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -373,7 +373,7 @@ exports[`Showing correct entity settings when navigating to local cluster entity
               >
                 <div
                   class="Avatar rounded settingsAvatar"
-                  style="width: 40px; height: 40px; background: rgb(83, 137, 8);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(83, 137, 8);"
                 >
                   slk
                 </div>
@@ -537,7 +537,7 @@ exports[`Showing correct entity settings when navigating to local cluster entity
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -735,7 +735,7 @@ exports[`Showing correct entity settings when navigating to non-local cluster en
               >
                 <div
                   class="Avatar rounded settingsAvatar"
-                  style="width: 40px; height: 40px; background: rgb(9, 124, 92);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(9, 124, 92);"
                 >
                   skc
                 </div>
@@ -887,7 +887,7 @@ exports[`Showing correct entity settings when navigating to non-local cluster en
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1085,7 +1085,7 @@ exports[`Showing correct entity settings when navigating to weblink entity setti
               >
                 <div
                   class="Avatar rounded settingsAvatar"
-                  style="width: 40px; height: 40px; background: rgb(53, 8, 142);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(53, 8, 142);"
                 >
                   sw
                 </div>
@@ -1172,7 +1172,7 @@ exports[`Showing correct entity settings when navigating to weblink entity setti
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>

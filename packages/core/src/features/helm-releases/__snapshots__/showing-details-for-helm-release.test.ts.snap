@@ -60,7 +60,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -841,7 +841,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1627,7 +1627,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2603,7 +2603,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -3640,7 +3640,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -4677,7 +4677,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -5959,7 +5959,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -7241,7 +7241,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -8523,7 +8523,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -9610,7 +9610,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -10699,7 +10699,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -11981,7 +11981,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -13018,7 +13018,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -14058,7 +14058,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -15034,7 +15034,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -16071,7 +16071,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -17108,7 +17108,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -18145,7 +18145,7 @@ exports[`showing details for helm release given application is started when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

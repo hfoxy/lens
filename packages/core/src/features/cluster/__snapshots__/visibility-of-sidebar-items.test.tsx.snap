@@ -59,7 +59,7 @@ exports[`cluster - visibility of sidebar items given kube resource for route is 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -607,7 +607,7 @@ exports[`cluster - visibility of sidebar items given kube resource for route is 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>

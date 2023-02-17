@@ -63,7 +63,7 @@ exports[`<ClusterFrame /> given cluster with list nodes and namespaces permissio
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -567,7 +567,7 @@ exports[`<ClusterFrame /> given cluster with list nodes and namespaces permissio
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -1078,7 +1078,7 @@ exports[`<ClusterFrame /> given cluster without list nodes, but with namespaces 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>

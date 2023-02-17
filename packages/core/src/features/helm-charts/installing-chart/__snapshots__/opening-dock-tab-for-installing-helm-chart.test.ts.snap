@@ -60,7 +60,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -597,7 +597,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1304,7 +1304,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2068,7 +2068,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -3015,7 +3015,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -3972,7 +3972,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -4919,7 +4919,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -5870,7 +5870,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -6827,7 +6827,7 @@ exports[`opening dock tab for installing helm chart given application is started
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

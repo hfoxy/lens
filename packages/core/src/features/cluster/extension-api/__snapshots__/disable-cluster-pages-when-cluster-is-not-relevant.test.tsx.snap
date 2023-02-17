@@ -60,7 +60,7 @@ exports[`disable-cluster-pages-when-cluster-is-not-relevant given extension shou
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -488,7 +488,7 @@ exports[`disable-cluster-pages-when-cluster-is-not-relevant given extension shou
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1038,7 +1038,7 @@ exports[`disable-cluster-pages-when-cluster-is-not-relevant given not yet known 
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

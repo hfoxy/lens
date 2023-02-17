@@ -60,7 +60,7 @@ exports[`disable kube object statuses when cluster is not relevant given extensi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -522,7 +522,7 @@ exports[`disable kube object statuses when cluster is not relevant given extensi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -944,7 +944,7 @@ exports[`disable kube object statuses when cluster is not relevant given not yet
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

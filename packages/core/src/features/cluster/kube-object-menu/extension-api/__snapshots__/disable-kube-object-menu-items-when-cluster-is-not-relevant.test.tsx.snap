@@ -60,7 +60,7 @@ exports[`disable kube object menu items when cluster is not relevant given exten
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -493,7 +493,7 @@ exports[`disable kube object menu items when cluster is not relevant given exten
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -920,7 +920,7 @@ exports[`disable kube object menu items when cluster is not relevant given not y
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

@@ -59,7 +59,7 @@ exports[`legacy extension adding cluster frame components given custom component
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>

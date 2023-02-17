@@ -174,7 +174,7 @@ exports[`extension special characters in page registrations renders 1`] = `
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -378,7 +378,7 @@ exports[`extension special characters in page registrations when navigating to r
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>

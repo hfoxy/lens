@@ -60,7 +60,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -738,7 +738,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1421,7 +1421,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2173,7 +2173,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2903,7 +2903,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -3705,7 +3705,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -4509,7 +4509,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -5275,7 +5275,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -6036,7 +6036,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);ar(--cellHeight);"
             >
               ??
             </div>
@@ -6788,7 +6788,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -7540,7 +7540,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -8292,7 +8292,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -8879,7 +8879,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -9640,7 +9640,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -10392,7 +10392,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -10979,7 +10979,7 @@ exports[`cluster/namespaces - edit namespace from new tab when navigating to nam
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

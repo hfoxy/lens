@@ -641,7 +641,7 @@ exports[`preferences - navigation to application preferences given in preference
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -1422,7 +1422,7 @@ exports[`preferences - navigation to application preferences given in preference
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -1828,7 +1828,7 @@ exports[`preferences - navigation to application preferences given in some child
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -2578,7 +2578,7 @@ exports[`preferences - navigation to application preferences given in some child
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -3329,7 +3329,7 @@ exports[`preferences - navigation to application preferences given in some child
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>

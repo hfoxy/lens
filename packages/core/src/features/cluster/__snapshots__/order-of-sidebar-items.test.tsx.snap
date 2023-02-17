@@ -59,7 +59,7 @@ exports[`cluster - order of sidebar items when rendered renders 1`] = `
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -662,7 +662,7 @@ exports[`cluster - order of sidebar items when rendered when parent is expanded 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>

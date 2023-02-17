@@ -281,7 +281,7 @@ exports[`preferences - navigation to telemetry preferences given URL for Sentry 
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -1031,7 +1031,7 @@ exports[`preferences - navigation to telemetry preferences given in preferences,
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -1793,7 +1793,7 @@ exports[`preferences - navigation to telemetry preferences given in preferences,
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -2172,7 +2172,7 @@ exports[`preferences - navigation to telemetry preferences given in preferences,
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -2511,7 +2511,7 @@ exports[`preferences - navigation to telemetry preferences given no URL for Sent
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>

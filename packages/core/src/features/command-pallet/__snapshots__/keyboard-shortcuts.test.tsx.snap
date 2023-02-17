@@ -266,7 +266,7 @@ exports[`Command Pallet: keyboard shortcut tests when on linux renders 1`] = `
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -642,7 +642,7 @@ exports[`Command Pallet: keyboard shortcut tests when on linux when pressing ESC
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1018,7 +1018,7 @@ exports[`Command Pallet: keyboard shortcut tests when on linux when pressing SHI
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1406,7 +1406,7 @@ exports[`Command Pallet: keyboard shortcut tests when on linux when pressing SHI
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1691,7 +1691,7 @@ exports[`Command Pallet: keyboard shortcut tests when on macOS renders 1`] = `
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1976,7 +1976,7 @@ exports[`Command Pallet: keyboard shortcut tests when on macOS when pressing ESC
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -2261,7 +2261,7 @@ exports[`Command Pallet: keyboard shortcut tests when on macOS when pressing SHI
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -2558,7 +2558,7 @@ exports[`Command Pallet: keyboard shortcut tests when on macOS when pressing SHI
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>

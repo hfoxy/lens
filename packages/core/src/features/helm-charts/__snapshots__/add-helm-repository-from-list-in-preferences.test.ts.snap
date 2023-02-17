@@ -593,7 +593,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1335,7 +1335,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -2079,7 +2079,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -2872,7 +2872,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -3614,7 +3614,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -4345,7 +4345,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -5121,7 +5121,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -5899,7 +5899,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -6736,7 +6736,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -7467,7 +7467,7 @@ exports[`add helm repository from list in preferences when navigating to prefere
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>

@@ -59,7 +59,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -635,7 +635,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -1211,7 +1211,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -1807,7 +1807,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -2281,7 +2281,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -2734,7 +2734,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>
@@ -3330,7 +3330,7 @@ exports[`cluster - sidebar and tab navigation for core given core registrations 
         >
           <div
             class="Avatar rounded loadingAvatar"
-            style="width: 40px; height: 40px;"
+            style="width: var(--cellWidth); var(--cellHeight);"
           >
             ??
           </div>

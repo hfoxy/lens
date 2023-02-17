@@ -319,7 +319,7 @@ exports[`preferences: URLs of legacy extensions given extension with both custom
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -748,7 +748,7 @@ exports[`preferences: URLs of legacy extensions given extension with both custom
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1139,7 +1139,7 @@ exports[`preferences: URLs of legacy extensions given extension with custom pref
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1504,7 +1504,7 @@ exports[`preferences: URLs of legacy extensions given extension with custom pref
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>
@@ -1909,7 +1909,7 @@ exports[`preferences: URLs of legacy extensions given extension with custom pref
                 <div
                   class="Avatar rounded disabled avatar"
                   id="hotbarIcon-hotbar-icon-catalog-entity"
-                  style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                  style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
                 >
                   Ca
                 </div>

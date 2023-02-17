@@ -174,7 +174,7 @@ exports[`navigate to extension page renders 1`] = `
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -378,7 +378,7 @@ exports[`navigate to extension page when extension navigates to child route rend
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -598,7 +598,7 @@ exports[`navigate to extension page when extension navigates to route with param
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -818,7 +818,7 @@ exports[`navigate to extension page when extension navigates to route without pa
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>
@@ -1038,7 +1038,7 @@ exports[`navigate to extension page when extension navigates to route without pa
               <div
                 class="Avatar rounded disabled avatar"
                 id="hotbarIcon-hotbar-icon-catalog-entity"
-                style="width: 40px; height: 40px; background: rgb(5, 1, 130);"
+                style="width: var(--cellWidth); var(--cellHeight); background: rgb(5, 1, 130);"
               >
                 Ca
               </div>

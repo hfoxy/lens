@@ -60,7 +60,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -760,7 +760,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1563,7 +1563,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2382,7 +2382,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -3237,7 +3237,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -4232,7 +4232,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -5229,7 +5229,7 @@ exports[`New Upgrade Helm Chart Dock Tab given a namespace is selected when navi
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

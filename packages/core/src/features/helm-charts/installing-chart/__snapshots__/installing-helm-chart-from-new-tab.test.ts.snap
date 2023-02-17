@@ -60,7 +60,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -529,7 +529,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -1482,7 +1482,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -2280,7 +2280,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -3322,7 +3322,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -4338,7 +4338,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -5349,7 +5349,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -6360,7 +6360,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -7393,7 +7393,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -8435,7 +8435,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -9446,7 +9446,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -10465,7 +10465,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -11343,7 +11343,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -12156,7 +12156,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -13047,7 +13047,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -14304,7 +14304,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -15154,7 +15154,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -16219,7 +16219,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -17282,7 +17282,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -18293,7 +18293,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -19304,7 +19304,7 @@ exports[`installing helm chart from new tab given tab for installing chart was n
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>

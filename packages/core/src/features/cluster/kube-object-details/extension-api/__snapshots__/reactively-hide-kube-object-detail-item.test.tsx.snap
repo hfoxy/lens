@@ -121,7 +121,7 @@ exports[`reactively hide kube object detail item renders 1`] = `
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
@@ -737,7 +737,7 @@ exports[`reactively hide kube object detail item when the item is shown renders 
           >
             <div
               class="Avatar rounded loadingAvatar"
-              style="width: 40px; height: 40px;"
+              style="width: var(--cellWidth); var(--cellHeight);"
             >
               ??
             </div>
